@@ -15,13 +15,14 @@ Dans le composant `<CardList />`, récupérer la liste des cartes et faire un `c
 Fait en sorte de n'appeler l'API qu'au montage du composant.
 
 All cards url : https://db.ygoprodeck.com/api/v7/cardinfo.php?num=30&offset=0
-** ressources : ** [loader](https://reactrouter.com/en/main/route/loader) [useLoaderData](https://reactrouter.com/en/main/hooks/use-loader-data)
+
+**ressources :** [loader](https://reactrouter.com/en/main/route/loader) [useLoaderData](https://reactrouter.com/en/main/hooks/use-loader-data)
 
 ## 2. Liste
 
 Dans ton composant `<CardList />`, map sur les données récupérés de l'API et affiche le nom de chaque carte dans une balise `<p>` pour commencer
 
-** ressources : ** [map & props](https://www.freecodecamp.org/news/how-to-render-lists-in-react/)
+**ressources :** [map & props](https://www.freecodecamp.org/news/how-to-render-lists-in-react/)
 
 ## 3. Détail
 
@@ -48,7 +49,7 @@ En fonction de l'identifiant, le composant `<CardDetails />` doit appeler l'API 
 
 Ajout dans `<CardDetails />` un bouton "Back to the list" qui  redirige sur la page qui affiche la liste des cartes.
 
-** bonus step  : ** Faire en sorte d'afficher la description et les statistiques de la carte uniquement quand on se trouve sur la page de prévisualisation de celle-ci [useLocation](https://reactrouter.com/en/main/hooks/use-location)
+**bonus step  :** Faire en sorte d'afficher la description et les statistiques de la carte uniquement quand on se trouve sur la page de prévisualisation de celle-ci [useLocation](https://reactrouter.com/en/main/hooks/use-location)
 
 ## 5. Filtrage 1/2
 
