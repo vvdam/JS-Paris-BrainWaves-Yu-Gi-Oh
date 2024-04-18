@@ -59,8 +59,16 @@ Dans `<CardList />`, déclare un state pour stocker la valeur selectionner depui
 
 Ajouter un filtre sur la liste des cartes affiché afin de ne garder que les cartes de la race correspondante.
 
+**tips :** Regarder attentivement le code déjà en place dans les composants `RaceFilter` & `SearchBar` ainsi que la documentation de l'api.
+
 ## 6. Filtrage 2/2
 
 Dans `<CardList />`, ajoute un label "Rechercher" et un champs texte, avant la liste.
 
 À la modification du texte du champs, filtrer les cartes pour n'afficher que celles dont le nom correspond à la recherche.
+
+**tips :** Regarder attentivement le code déjà en place dans les composants `RaceFilter` & `SearchBar` ainsi que la documentation de l'api.
+
+
+### Congratulation your are a card master !
+(https://cdn5.vectorstock.com/i/1000x1000/46/34/super-hero-business-man-flying-riding-a-rocket-vector-29594634.jpg)
