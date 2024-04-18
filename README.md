@@ -43,13 +43,15 @@ Ajoute dans le fichier `main.jsx` la configuration nécessaire à la création d
 
 `<RandomCard />` doit appeler l'API pour récuperer une carte au hasard et afficher le nom et les statistiques de celle-ci.
 
-Au click sur l'image du composant `<Card />` rediriger sur la route "/card/:id" :id étant remplacer par l'identifiant de la carte. [navigate](https://reactrouter.com/en/main/hooks/use-navigate)
+Au click sur l'image du composant `<Card />` rediriger sur la route "/card/:id" :id étant remplacer par l'identifiant de la carte. 
+**ressource :** [navigate](https://reactrouter.com/en/main/hooks/use-navigate)
 
 En fonction de l'identifiant, le composant `<CardDetails />` doit appeler l'API afin d'afficher le nom et les statistiques de la carte.
 
 Ajout dans `<CardDetails />` un bouton "Back to the list" qui  redirige sur la page qui affiche la liste des cartes.
 
-**bonus step  :** Faire en sorte d'afficher la description et les statistiques de la carte uniquement quand on se trouve sur la page de prévisualisation de celle-ci [useLocation](https://reactrouter.com/en/main/hooks/use-location)
+**bonus step  :** Faire en sorte d'afficher la description et les statistiques de la carte uniquement quand on se trouve sur la page de prévisualisation de celle-ci 
+**ressource :** [useLocation](https://reactrouter.com/en/main/hooks/use-location)
 
 ## 5. Filtrage 1/2
 
