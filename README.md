@@ -2,6 +2,8 @@
 
 Nous allons créer une application affichant une liste de cartes du jeu Yu Gi Oh.
 
+![example](./public/screen-capture.gif)
+
 Pour cela, nous aurons besoin besoin de cette API : [Documentation de l'API](https://ygoprodeck.com/api-guide/).
 
 Installe le projet avec la commande `npm ci` (à préférer à `npm install`, car les versions des modules seront les mêmes que le package-lock.json).
